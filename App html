@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#7f1d1d">
+<link rel="manifest" href="manifest.json">
+<title>Chooda Shop Pro</title>
+<style>body{font-family:system-ui;padding:20px;text-align:center} .btn{background:#7f1d1d;color:white;padding:14px 24px;border-radius:12px;display:inline-block;text-decoration:none;margin-top:20px}</style>
+</head>
+<body>
+<h2>Chooda Shop Pro - Install Ready</h2>
+<p>Is folder ko Netlify Drop (app.netlify.com/drop) pe drag-drop kar do. Fir jo link milega usko phone ke Chrome me khol ke Add to Home Screen karo.</p>
+<a class="btn" href="./app.html">App Kholo</a>
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}
+</script>
+</body>
+</html>
